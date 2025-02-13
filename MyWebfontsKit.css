@@ -17,9 +17,7 @@
   
 @font-face {
   font-family: "PowerGroteskRegular";
-  src: url('/PowerGroteskRegular/font.woff2') format('woff2'), url('/PowerGroteskRegular/font.woff') format('woff');
+  src: url('/PowerGroteskRegular/font.woff2') format('woff2'),
+       url('/PowerGroteskRegular/font.woff') format('woff');
 }
 
-body {
-            font-family: "PowerGroteskRegular", sans-serif;
-        }
