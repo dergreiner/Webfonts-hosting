@@ -14,9 +14,16 @@
  * © 2025 MyFonts Inc. */
 
 
-  
-@font-face {
-  font-family: "PowerGroteskRegular";
-  src: url('webFonts/PowerGroteskRegular/font.woff2') format('woff2'), url('webFonts/PowerGroteskRegular/font.woff') format('woff');
-}
+ /* Webfont: PowerGrotesk-Regular */@font-face {
+  font-family: 'PowerGroteskRegular';
+  src: url('webFonts/PowerGroteskRegular/PowerGrotesk-Regular.eot'); /* IE9 Compat Modes */
+  src: url('webFonts/PowerGroteskRegular/PowerGrotesk-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webFonts/PowerGroteskRegular/PowerGrotesk-Regular.woff') format('woff'), /* Modern Browsers */
+       url('webFonts/PowerGroteskRegular/PowerGrotesk-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('webFonts/PowerGroteskRegular/PowerGrotesk-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+} 
+
 
